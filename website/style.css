@@ -1,0 +1,174 @@
+#app{
+    background: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:100%;
+    width: 80%;
+    color: #f0d43a;
+    background-color: #1567ff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 22px;
+    
+}
+body{
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        width: 100%;
+        display: block;
+
+}
+html{
+    width: 100%;
+}
+form{
+    justify-self: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+    /* justify-content: space-evenly; */
+}
+.holder.zip{
+    width: 100%;
+    height: 25vh;
+    padding-left: 30%;
+    
+}
+.holder.feel{
+    width: 100%;
+    height: 25vh;
+    padding-left: 30%;
+    margin-bottom: 7%;
+}
+.result{
+        width: 100%;
+        height: 25vh;
+        padding-left: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+input{
+    box-shadow: 5px 5px 30px 1px #000;
+}
+textarea{
+    box-shadow: 5px 5px 30px 1px #000;
+
+}
+label{
+    margin-bottom: 6px;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    color:#2015FF ;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 6vh;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 2%;
+    font-style: italic;
+
+
+}
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+}
+#generate{
+    position: relative;
+    background-color:rgb(77, 77, 104);
+    width: fit-content;
+    height: fit-content;
+}
+
+#entryHolder{
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+
+}
+.title{
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    padding-left: 5px;
+    color:#ffffff; 
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    padding-left: 5px;
+
+    color: #ffffff; 
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    padding-left: 5px;
+
+    color: #ffffff; 
+
+} 
